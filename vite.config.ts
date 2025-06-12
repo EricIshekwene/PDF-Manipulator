@@ -10,7 +10,7 @@ export default defineConfig({
       "@": resolve(__dirname, "./src"),
     },
   },
-  base: '/PDF-Manipulator/',
+  base: process.env.NODE_ENV === 'production' ? '/PDF-Manipulator/' : '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
