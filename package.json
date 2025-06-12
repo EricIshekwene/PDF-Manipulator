@@ -41,5 +41,6 @@
   },
   "engines": {
     "node": ">=22.0.0"
-  }
+  },
+  "homepage": "https://ericishekwene.github.io/PDF-Manipulator"
 }
