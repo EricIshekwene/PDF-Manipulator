@@ -11,4 +11,9 @@ export default defineConfig({
     },
   },
   base: '/PDF-Manipulator/',
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: true
+  }
 });

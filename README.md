@@ -12,6 +12,7 @@ A modern web application for manipulating PDF files. This tool allows users to m
 - Support for multiple file selection
 - Real-time file preview
 - Progress tracking for operations
+- Live demo available at: https://ericishekwene.github.io/PDF-Manipulator
 
 ## Technologies Used
 
