@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Navbar from "./navBar";
 import PdfOptions from "./pdfOptions";
 import FileAdder from "./fileAdder";

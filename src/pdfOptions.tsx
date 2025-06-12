@@ -1,5 +1,3 @@
-import React from "react";
-
 interface PdfOptionsProps {
     selectedOption: string | null;
     onOptionChange: (option: string) => void;
