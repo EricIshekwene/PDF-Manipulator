@@ -28,8 +28,17 @@ jobs:
           node-version: '18'
           cache: 'npm'
 
+      - name: Clear npm cache
+        run: npm cache clean --force
+
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install --no-audit --no-fund --prefer-offline
+          if [ $? -ne 0 ]; then
+            echo "First install attempt failed, retrying..."
+            npm cache clean --force
+            npm install --no-audit --no-fund
+          fi
 
       - name: Build
         run: npm run build
