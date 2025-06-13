@@ -95,8 +95,6 @@ function FileAdder({ selectedOption }: FileAdderProps) {
                 return "Drag and drop your PDF to split it";
             case "compress-pdf":
                 return "Drag and drop your PDF to compress it";
-            case "convert-pdf":
-                return "Drag and drop your files to convert them to PDF";
             default:
                 return "Select a PDF operation above";
         }
@@ -168,9 +166,6 @@ function FileAdder({ selectedOption }: FileAdderProps) {
                     return;
                 }
                 console.log("Compressing PDF:", fileNames[0]);
-                break;
-            case "convert-pdf":
-                console.log("Converting files to PDF:", fileNames);
                 break;
         }
     };

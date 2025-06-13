@@ -65,25 +65,6 @@ function PdfOptions({ selectedOption, onOptionChange }: PdfOptionsProps) {
                             Compress PDF
                         </label>
                     </li>
-                    <li className="services__item">
-                        <input
-                            name="pdfFunction"
-                            id="convert-pdf"
-                            type="radio"
-                            className="services__input hidden"
-                            checked={selectedOption === "convert-pdf"}
-                            onChange={() => onOptionChange("convert-pdf")}
-                        />
-                        <label
-                            htmlFor="convert-pdf"
-                            className={`block p-4 rounded-lg cursor-pointer transition-colors duration-200 font-medium ${selectedOption === "convert-pdf"
-                                ? "bg-red-400 text-white hover:bg-red-500"
-                                : "bg-gray-50 hover:bg-gray-100 text-gray-800"
-                                }`}
-                        >
-                            Convert to PDF
-                        </label>
-                    </li>
                 </ul>
             </div>
         </div>
