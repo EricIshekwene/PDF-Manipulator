@@ -2,6 +2,8 @@
   "name": "react-vite-ui",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://ericishekwene.github.io/PDF-Manipulator",
+
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -37,7 +39,12 @@
     "vite": "^5.0.0"
   },
   "engines": {
+<<<<<<< HEAD
     "node": ">=18.0.0"
   },
   "homepage": "https://ericishekwene.github.io/PDF-Manipulator"
+=======
+    "node": ">=22.0.0"
+  }
+>>>>>>> ffe916f (Save all local changes before merging unrelated histories)
 }
